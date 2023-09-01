@@ -4,7 +4,8 @@ export default function ContactMeTab(){
 
     return (
         <>
-            <Link to='/ContactMe'>Contact Me</Link>
+            <Link to='/contactme'>Contact Me</Link>
         </>
     )
 }
+

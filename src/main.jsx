@@ -1,37 +1,36 @@
 import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-// import 'bootstrap/dist/css/boostrap.min.css';
 import './index.css';
 import App from './App.jsx';
-import Home from './pages/HomePage.jsx';
 import AboutMe from './pages/AboutMePage.jsx';
 import Projects from './pages/ProjectsPage.jsx';
 import Resume from './pages/ResumePage.jsx';
 import ContactMe from './pages/ContactMe';
+import ErrorPage from './pages/ErrorPage';
+import 'bootstrap';
 
+
+console.log(AboutMe)
 const router = createBrowserRouter([
   {
     path: '/',
     element: <App />,
+    errorElement: <ErrorPage />,
     children: [
       {
         index: true,
-        element: <Home />
-      },
-      {
-        root: 'AboutMe',
         element: <AboutMe />
       },
       {
-        root: 'Projects',
+        path: 'projects',
         element: <Projects />
       },
       {
-        root: 'Resume', 
+        path: 'resume', 
         element: <Resume />
       },
       {
-        root: 'ContactMe',
+        path: 'contactme',
         element: <ContactMe />
       }
     ]
