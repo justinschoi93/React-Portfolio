@@ -40,7 +40,7 @@ export default function ContactMe () {
 
 
     return (
-        <div className="container text-center">
+        <div className="contact-me-page">
             <form className="form" onSubmit={handleFormSubmit}>
                 <input
                     value={name}

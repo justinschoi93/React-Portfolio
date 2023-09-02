@@ -1,0 +1,65 @@
+
+.navbar-tab-active {
+    background: aqua;
+    color: black
+}
+
+.buttons img {
+    width: 25px;
+    height: 25px;
+}
+
+.about-me-page img {
+    width: 300px;
+    height: 300px;
+
+}
+
+.about-me-page {
+    color: white
+}
+
+.resume {
+    color: orange
+}
+
+.resume .post {
+    color: white
+}
+
+.contact-me-page input {
+    color: greenyellow
+}
+
+.contact-me-page textarea {
+    color: greenyellow
+}
+
+.contact-me-page button {
+    color: greenyellow;
+}
+
+header {
+    color: aqua;
+}
+
+header #justin {
+    color: green
+}
+
+footer {
+    color: aqua;
+}
+
+.portfolio img {
+    width: 900;
+    height: 700px;
+}
+.portfolio .buttons img{
+    width: 25px;
+    height: 25px;
+}
+
+.portfolio {
+    color: white
+}
