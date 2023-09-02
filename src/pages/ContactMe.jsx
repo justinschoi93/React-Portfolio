@@ -22,7 +22,7 @@ export default function ContactMe () {
     const handleFormSubmit = (e) => {
         e.preventDefault();
         
-        if (email === '' || email === 'jcricket@makeawish.com') {
+        if (email === '' || email === 'jcricket@makeawish.com' || !email.includes('@')) {
             return alert('You must include an email address');
         } else if (name === '' || name === 'Jimini Cricket') {
             return alert('You must include a name');
