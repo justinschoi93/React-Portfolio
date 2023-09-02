@@ -22,8 +22,8 @@ const router = createBrowserRouter([
         element: <AboutMe />
       },
       {
-        path: 'projects',
-        element: <Projects />
+        path: 'portfolio',
+        element: <Portfolio />
       },
       {
         path: 'resume', 
