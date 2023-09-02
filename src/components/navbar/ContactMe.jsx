@@ -3,9 +3,7 @@ import { Link } from 'react-router-dom';
 export default function ContactMeTab(){
 
     return (
-        <>
-            <Link to='/contactme'>Contact Me</Link>
-        </>
+      <div className="navbar-tab navbar-tab-contact-me"><Link to='/contactme'>Contact Me</Link></div>     
     )
 }
 
